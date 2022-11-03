@@ -2,26 +2,40 @@ import random
 
 jokes_data = []
 joke_list = [
-    "If you give someone a program... you will frustrate them for a day; if you teach them how to program... you will "
-    "frustrate them for a lifetime.",
-    "Q: Why did I divide sin by tan? A: Just cos.",
-    "UNIX is basically a simple operating system... but you have to be a genius to understand the simplicity.",
-    "Enter any 11-digit prime number to continue.",
-    "If at first you don't succeed; call it version 1.0.",
-    "Java programmers are some of the most materialistic people I know, very object-oriented",
-    "The oldest computer can be traced back to Adam and Eve. It was an apple but with extremely limited memory. Just "
-    "1 byte. And then everything crashed.",
-    "Q: Why did Wi-Fi and the computer get married? A: Because they had a connection",
-    "Bill Gates teaches a kindergarten class to count to ten. 1, 2, 3, 3.1, 95, 98, ME, 2000, XP, Vista, 7, 8, 10.",
-    "Q: What’s a aliens favorite computer key? A: the space bar!",
-    "There are 10 types of people in the world: those who understand binary, and those who don’t.",
-    "If it wasn't for C, we’d all be programming in BASI and OBOL.",
-    "Computers make very fast, very accurate mistakes.",
-    "Q: Why is it that programmers always confuse Halloween with Christmas? A: Because 31 OCT = 25 DEC.",
-    "Q: How many programmers does it take to change a light bulb? A: None. It’s a hardware problem.",
-    "The programmer got stuck in the shower because the instructions on the shampoo bottle said: Lather, Rinse, Repeat.",
-    "Q: What is the biggest lie in the entire universe? A: I have read and agree to the Terms and Conditions.",
-    'An SQL statement walks into a bar and sees two tables. It approaches, and asks may I join you?'
+    "Atlanta Hawks: Trae Young is entertaining enough to make State Farm Arena a destination in Atlanta, no easy feat in a notoriously fickle town.",
+    "Boston Celtics: Jayson Tatum and Jaylen Borwn are both averaging close to 30 and are sharing the ball much better now",
+    "Brooklin Nets: There are no injury concerns or relapses for Kevin Durant, and he signed an extension.",
+    "Charlotte Hornets: The Warriors had the chance to draft LaMelo Ball but passed. ",
+    "Chicago Bulls: Caruso and Ball are playing great and Demar Derozan is looking like an MVP candidate to start the season",
+    "Cleveland Cavaliers: While the rest of the league goes small, the Cavs refused to be copycatters and drafted center Evan Mobley after extending center Jarrett Allen. ",
+    "Dallas Mavericks: For someone who burns plenty of minutes, Luka Doncic has been spared serious injury.",
+    "Denver Nuggets: Nikola Jokic apparently isn’t resting on his MVP laurels, far from it, actually.",
+    "Detroit Pistons: As long as the Lions are in town, the Pistons won’t be Detroit’s bottom-feeder.",
+    "Golden State Warriors: Steph Curry is currently a better version of Steph Curry.",
+    "Houston Rockets: Jalen Green, every once in a while, drops hints of being special.",
+    "Indiana Pacers: Seven guards were taken ahead of Chris Duarte in last summer’s Draft; good thing the Pacers were sitting pretty at 13.",
+    "LA Clippers: Paul George is raising his game just when the Clippers, without Kawhi Leonard, need him to do so.",
+    "LA Lakers: They already won a title with LeBron James; now they’re playing with house money. Also: Anthony Davis is upright.",
+    "Memphis Grizzlies: Remind us again who was the prize of the 2019 NBA Draft? Also: For those who live in Memphis, attending a Grizzlies’ game is the best value in the NBA.",
+    "Miami Heat: Nobody can find nooks and crannies in the salary cap quite like Heat capologist Andy Elisburg; that’s why Miami, year after year, finds a way to add talent.",
+    "Milwaukee Bucks: Giannis didn’t leave town.",
+    "Minnesota Timberwolves: Anthony Edwards is playing like an allstar and Rudy Gobert has revitalized his career",
+    "New Orleans Pelicans: Number 1 picks don’t refuse rookie max contract extensions from the teams that drafted them, so there’s that regarding Zion Williamson’s future.",
+    "New York Knicks: Knicks fans are still passionate about their team and willing to go over-the-top in response to the smallest signs of progress.",
+    "Oklahoma City Thunder: Shai Gilgeous-Alexander is a solid building block for the future.",
+    "Orlando Magic: Paolo Banchero is playing at an all star caliber level. He is the next big thing.",
+    "Philadelphia 76ers: The emergence of Tyrese Maxey is clearly the best, and maybe only good thing, to happen as a result of the Ben Simmons Situation.",
+    "Phoenix Suns: The hangover from losing the NBA Finals was short-lived with this team; the focus and cohesiveness seem intact.",
+    "Portland Trail Blazers: Even with Damian Lillard hurt, Nurkic, Hart, Grant, and Simons, are leading them to a 5 and 2 record.",
+    "Sacremento Kings: Kevin Huerter was a very good pickup and he has quitely put together a very solid start.",
+    "San Antonio Spurs: Gregg Popovich is committed to see this through and evidently will leave one day on his own terms.",
+    "Toronto Raptors: Those who said the Raptors were reaching when they drafted Scottie Barnes — where y’all at?.",
+    "Utah Jazz: Lauri Markkanen is playing how he did during Eurobasket. They are one of the most fun teams to watch in the West.",
+    "Washington Wizards: GM Tommy Sheppard dumped John Wall and Russell Westbrook and their poisonous contracts for solid players and cap flexibility.",
+    
+    
+    
+    
 ]
 
 # Initialize jokes
